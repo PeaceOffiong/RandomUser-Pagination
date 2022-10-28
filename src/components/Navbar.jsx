@@ -4,7 +4,6 @@ import {useGlobalContext} from "../context";
 import React, {useState} from "react";
 
 const Navbar = () =>{
-  throw new Error("error!!")
   const {randomPerson} = useGlobalContext()
 
   const checkPerson = (person) =>{

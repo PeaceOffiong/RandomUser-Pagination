@@ -45,7 +45,6 @@ const Userdetails = () =>{
       </section>
     </>
   } else{
-    console.log(person)
   useEffect(() =>{
     setPerson(person)
   }, [person])
